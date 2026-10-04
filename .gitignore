@@ -1,0 +1,36 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+
+# Build / temporary
+.tmp/
+tmp/
+temp/
+dist/
+build/
+*.log
+
+# Motion Design Director development artifacts
+*.pre-fusion-*.md
+*.fusion*-pre-final.md
+FUSION-*.txt
+**/archive/
+
+# Packages / exports
+*.zip
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
